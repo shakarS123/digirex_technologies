@@ -1,0 +1,249 @@
+.top-nav{
+  text-align: center;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ced3ca;
+    flex-wrap: wrap;
+}
+.top-section{
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/deskpad-blk-header1-mobile2_1300x.jpg?v=1583159811);
+  background-position: center center;
+  height: 75vh;
+  position: relative;
+  margin-top: 30px;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+}
+
+.top-container{
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  color: aliceblue;
+}
+
+.product-listing-container{
+  justify-content: center;
+  padding: 2rem 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.product-listing-selected{
+  color: #1a1a1a;
+    border-bottom: 1px solid currentColor;
+    cursor: default;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    padding: 0 0 .4rem 0;
+    margin: 0 1.8rem;
+    transition: border .2s ease-in, color .2s ease-in;
+}
+
+.product-listing{
+  font-size: 1.4rem;
+    padding: 0 0 .4rem 0;
+    white-space: nowrap;
+    margin: 0 1.8rem;
+    color: #b3b3b3;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: border .2s ease-in, color .2s ease-in;
+}
+
+.item-content{
+  display: block;
+  height: auto;
+  margin-bottom: 20px;
+  position: relative;
+  background: #fff;
+  padding: 0 0 1.6rem 0;
+  position: relative;
+    display: block;
+    padding-top: 105%;
+    overflow: hidden;
+    margin: 0;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    background: #F7F7F7
+}
+.item-bedge{
+  position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 100;
+    background: #ecd3ca;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 100%;
+}
+
+.item-image{
+  display: block;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-title{
+  
+  color: #1a1a1a;
+  cursor: pointer;
+}
+.subtitle{
+  color: #a8a8a8; 
+}
+.old-price{
+  color: gray;
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+.new-price{
+  color: #ff3451;
+}
+
+
+.footer-section{
+  width: 100%;
+  padding: 8.5rem 5%;
+  color: #1a1a1a;
+  background-color: white;
+  margin-top: 20px;
+
+}
+.footer-brand__text{
+  /* width: auto; */
+  margin-right: 2.4rem;
+  margin-bottom: 0;
+  text-align: right;
+    
+}
+
+.footer-brand-container{
+  display: flex;
+}
+
+.social-brand-container{
+  /* display: flex; */
+    width: 100%;
+    text-align: right;
+    justify-content: center;
+
+}
+.social-brand-container svg{
+  width: 3rem;
+    height: 3rem;
+    /* margin:9px */
+}
+
+.footer-upper-section{
+  width: 100%;
+    padding: 8.5rem 5%;
+    color: #1a1a1a;
+    background: #ced3ca;
+}
+
+.data-container{
+  align-items: center;
+    max-width: 42rem;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.mission-container{
+  background-color: #f8f6f2;
+  width: 100%;
+  
+}
+
+.person-img{
+  max-width: 100%;
+  height: auto;
+
+}
+.person-label{
+  border-bottom: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+.object-container{
+  max-width: 100%;
+  height: auto;
+}
+.obj-img{
+  max-width: 100%;
+  height: auto;
+}
+.object-label{
+  border-bottom: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+}
+.text{
+  color: black;
+  text-align: center;
+}
+.taxt1{
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 2em;
+}
+.btn-default{
+  background: black;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    width: 26%;
+    padding: 0 2em;
+    font-size: -0.5rem;
+    font-style: normal;
+    font-family: "MaisonNeueBook","Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.block-heading{
+  text-align: center;
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 90px;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 60em){
+  .mission-container{
+    padding: 11.5rem 0;
+
+  }
+}
